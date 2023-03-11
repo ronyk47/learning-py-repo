@@ -1,9 +1,11 @@
+a = 5
+b = 6
+
+def cfunc():
+    a = 5
+    b = 6
+    sum = a + b
+    return sum
 
 
-def message(num):
-    x = 1+1
-    return print(x)
-
-message(sum)
-
-
+print(cfunc())
